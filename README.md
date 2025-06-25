@@ -1,1 +1,1 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. Feel free to clone this code for your own personal use.
+This is the source code for Mateusz Jaszczuk's personal page. This website was inspired by and built based on https://jonbarron.info project page.
