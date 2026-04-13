@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -26,17 +26,24 @@
                 <p class="name" style="text-align: center;">
                   Mateusz Jaszczuk
                 </p>
-                <p style="text-align: justify;">
-		I am a Master's student in Mechanical Engineering at the <a href="https://www.grasp.upenn.edu">GRASP Lab, University of Pennsylvania</a>, advised by <a href="https://nbfigueroa.github.io">Prof. Nadia Figueroa</a>. 
-    My research focuses on enabling robots to develop a human-like understanding of their environment, allowing them to act safely and adaptively in unstructured, changing settings.
-    Prior to Penn, I received my B.S. in Aeronautical and Astronautical Engineering from <a href="https://engineering.purdue.edu/AAE">Purdue University</a>.
+                <p style="text-align: justify; margin-bottom: 8px;">
+                  I am a Master's student in Mechanical Engineering (Robotics) at the <a href="https://www.grasp.upenn.edu">GRASP Lab, University of Pennsylvania</a>, advised by <a href="https://nbfigueroa.github.io">Prof. Nadia Figueroa</a>.
+                </p>
+                <p style="text-align: justify; margin-bottom: 8px;">
+                My research focuses on data-driven methods for adaptive robotic manipulation — enabling robots to infer task-relevant structure and adjust their control strategies in real time, toward safe and efficient deployment in complex, unstructured environments.
+                </p>
+                <p style="text-align: justify; margin-bottom: 0;">
+                  Prior to Penn, I received my B.S. in Aeronautical and Astronautical Engineering from 
+                  <a href="https://engineering.purdue.edu/AAE">Purdue University</a>, where 
+                     I worked on Bayesian transfer learning for composite manufacturing and 
+                      led autonomous UAV development at the Air Force Research Lab.
                 </p>
                 <div class="column has-text-centered">
                   <div class="publication-links">
                     
                     <!-- Email -->
                     <span class="link-block">
-                      <a href="mailto:jaszczuk@seas.upenn.com" class="icon-text" title="Email" style="margin: 0 8px;">
+                      <a href="mailto:jaszczukmatt@gmail.com" class="icon-text" title="Email" style="margin: 0 8px;">
                         <span class="icon is-small"><i class="fas fa-envelope"></i></span>
                         <span>Email</span>
                       </a>
@@ -45,9 +52,9 @@
                 
                     <!-- CV -->
                     <span class="link-block">
-                      <a href="data/MJ_CV.pdf" class="icon-text" title="CV" style="margin: 0 8px;">
+                      <a href="data/MJ_Resume.pdf" class="icon-text" title="Resume" style="margin: 0 8px;">
                         <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
-                        <span>CV</span>
+                        <span>Resume</span>
                       </a>
 
                     </span>
@@ -87,8 +94,8 @@
           <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:16px;width:100%;vertical-align:middle;">
-                  <h2 style="font-size:1.5rem; margin-bottom: 4px;">News</h2>
+                <td style="padding:8px 16px 4px 16px;width:100%;vertical-align:middle;">
+                  <h2 style="font-size:1.5rem; margin-bottom: 0;">News</h2>
                 </td>
               </tr>
             </tbody>
@@ -139,7 +146,7 @@
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
-              <td style="padding:16px;width:100%;vertical-align:middle">
+              <td style="padding:16px 16px 4px 16px;width:100%;vertical-align:middle">
                 <h2 style="font-size:1.5rem;">Research Projects</h2>
 
               </td>
@@ -148,7 +155,37 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr bgcolor="#f0f0f0">
               <td style="padding:16px;width:22.5%;vertical-align:middle">
-                <img src='images/rme_image_2.png' width="180">
+                <video width="180" autoplay loop muted playsinline style="display:block;">
+                  <source src='images/bimanual.mov' type='video/mp4'>
+                </video>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="#">
+                  <span class="papertitle">Learning to Feel: Force-Aware Data-Driven Estimation and Control for Adaptive Physical Interactions</span>
+                </a>
+                <br>
+                <strong>Mateusz Jaszczuk</strong>
+                <br>
+                Advisor: Dr. Nadia Figueroa &nbsp;&nbsp; Committee: Dr. Rachel Holladay, Dr. Paris Perdikaris
+                <br>
+                <em>Master's Thesis in Mechanical Engineering and Applied Mechanics, University of Pennsylvania</em>
+                <br>
+                <span style="display:block;margin-bottom:4px;"></span>
+                <p></p>
+                <p style="text-align: justify;">
+                  We propose an adaptive impedance control framework combining online system identification
+                  with an interaction classifier, enabling robots to compensate for unknown end-effector loads
+                  while remaining passive to human perturbations and leveraging estimated contact forces as
+                  guidance for motion planning.
+                </p>
+              </td>
+            </tr>
+
+            <tr bgcolor="#f0f0f0">
+              <td style="padding:16px;width:22.5%;vertical-align:middle">
+                <video width="180" autoplay loop muted playsinline style="display:block;">
+                  <source src='images/rme_video.mov' type='video/mp4'>
+                </video>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <a href="https://mateusz-jaszczuk.github.io/rme/">
@@ -156,6 +193,7 @@
                 </a>
                 <br>
                 <strong>Mateusz Jaszczuk</strong>, Nadia Figueroa
+
                 <br>
                 <em>9th Conference on Robot Learning (CoRL) </em>, 2025
                 <br>
@@ -197,6 +235,58 @@
 
 
           </tbody></table>
+
+        
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:16px 16px 4px 16px;width:100%;vertical-align:middle">
+                <h2 style="font-size:1.5rem;">Other Projects</h2>
+
+              </td>
+            </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr bgcolor="#f0f0f0">
+              <td style="padding:16px;width:22.5%;vertical-align:middle">
+                <img src='images/lcbf.png' width="180">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Implementation of Operational Space Control Barrier Functions on Franka Manipulator</span>
+                <br>
+                Benjamin Aziel, <strong>Mateusz Jaszczuk</strong>
+                <br>
+                <em>MEAM 5170 Control and Optimization with Applications in Robotics &mdash; Final Project</em>
+                <br>
+                <span style="display:block;margin-bottom:4px;"></span>
+                <p></p>
+                <p style="text-align: justify;">
+                  We implemented control barrier functions (CBFs) into an operational space impedance controller for a 7-DoF Franka Research 3 arm, enforcing joint limit, obstacle avoidance, and self-collision avoidance in real-time. We implemented the solver in Python with PyBullet and OSQP and evaluated it on tasks requireing strict safety constraints enforcement.
+                
+                </p>
+              </td>
+            </tr>
+
+            <tr bgcolor="#f0f0f0">
+              <td style="padding:16px;width:22.5%;vertical-align:middle">
+                <video width="180" autoplay loop muted playsinline style="display:block;">
+                  <source src='images/nerf.mp4' type='video/mp4'>
+                </video>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Implementation of Neural Radiance Field</span>
+                <br>
+                <em>ESE 6500 Learning in Robotics &mdash; Class Assignment</em>
+                <br>
+                <span style="display:block;margin-bottom:16px;"></span>
+                <p></p>
+                <p style="text-align: justify;">
+                  Implemented Neural Radiance Fields (NeRF), training a volumetric scene representation from a set of posed images and rendering novel views via differentiable ray marching.
+                </p>
+              </td>
+            </tr>
+
+          </tbody></table>
+
 
 
 
