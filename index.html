@@ -30,7 +30,7 @@
                   I am a Master's student in Mechanical Engineering (Robotics) at the <a href="https://www.grasp.upenn.edu">GRASP Lab, University of Pennsylvania</a>, advised by <a href="https://nbfigueroa.github.io">Prof. Nadia Figueroa</a>.
                 </p>
                 <p style="text-align: justify; margin-bottom: 8px;">
-                My research focuses on data-driven methods for adaptive robotic manipulation — enabling robots to infer task-relevant structure and adjust their control strategies in real time, toward safe and efficient deployment in complex, unstructured environments.
+                My research focuses on data-driven methods for adaptive and reactive robotic manipulation — enabling robots to infer task-relevant structure and adjust their control strategies in real time, toward safe and efficient deployment in complex, unstructured environments.
                 </p>
                 <p style="text-align: justify; margin-bottom: 0;">
                   Prior to Penn, I received my B.S. in Aeronautical and Astronautical Engineering from 
@@ -170,7 +170,11 @@
                 <br>
                 <em>Master's Thesis in Mechanical Engineering and Applied Mechanics, University of Pennsylvania</em>
                 <br>
-                <span style="display:block;margin-bottom:4px;"></span>
+                <!-- <span style="display:block;margin-bottom:4px;"></span> -->
+                <a href="#">Thesis</a>
+                /
+                <a href="#">Code</a>
+                <em style="font-size:0.85em; color:#888;">(coming soon)</em>
                 <p></p>
                 <p style="text-align: justify;">
                   We propose an adaptive impedance control framework combining online system identification
@@ -195,11 +199,13 @@
                 <strong>Mateusz Jaszczuk</strong>, Nadia Figueroa
 
                 <br>
-                <em>9th Conference on Robot Learning (CoRL) </em>, 2025
+                <em>9th Conference on Robot Learning (CoRL)</em>, 2025
                 <br>
                 <a href="https://openreview.net/pdf?id=2CIKnIwSta">Paper</a>
                 /
                 <a href="https://mateusz-jaszczuk.github.io/rme/">Project Website</a>
+                /
+                <a href="https://github.com/mateusz-jaszczuk/RapidMismatchEstimation">Code</a>
                 <p></p>
                 <p style="text-align: justify;">
                   We propose an online, probabilistic framework for estimating the mismatch in the end-effector dynamics model, 
@@ -228,6 +234,7 @@
           We introduce the concept of physics-guided transfer learning to predict the thermal conductivity 
           of an additively manufactured short-fiber reinforced polymer (SFRP)
            using micro-structural characteristics extracted from tensile tests. 
+
         </p>
       </td>
     </tr>
@@ -253,18 +260,60 @@
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Implementation of Operational Space Control Barrier Functions on Franka Manipulator</span>
                 <br>
-                Benjamin Aziel, <strong>Mateusz Jaszczuk</strong>
-                <br>
+           
                 <em>MEAM 5170 Control and Optimization with Applications in Robotics &mdash; Final Project</em>
                 <br>
-                <span style="display:block;margin-bottom:4px;"></span>
+                <a href="#">Code</a>
+                <em style="font-size:0.85em; color:#888;">(coming soon)</em>
                 <p></p>
                 <p style="text-align: justify;">
-                  We implemented control barrier functions (CBFs) into an operational space impedance controller for a 7-DoF Franka Research 3 arm, enforcing joint limit, obstacle avoidance, and self-collision avoidance in real-time. We implemented the solver in Python with PyBullet and OSQP and evaluated it on tasks requireing strict safety constraints enforcement.
-                
+                  With Ben Aziel, we implemented control barrier functions (CBFs) into an operational space impedance controller for a 7-DoF Franka Research 3 arm, enforcing joint limit, obstacle avoidance, and self-collision avoidance in real-time. We implemented the solver in Python with PyBullet and OSQP and evaluated it on tasks requiring strict safety constraints enforcement.
                 </p>
               </td>
             </tr>
+
+            <tr bgcolor="#f0f0f0">
+              <td style="padding:16px;width:22.5%;vertical-align:middle">
+                <img src='images/pick_place.png' width="180">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Vision-Based Pick-and-Place with Franka Manipulator</span>
+                <br>
+                <em>MEAM 5200 Introduction to Robotics &mdash; Final Project</em>
+                <br>
+                <span style="display:block;margin-bottom:8px;"></span>
+                <p></p>
+                <p style="text-align: justify;">
+                  Together with Benjamin Aziel, Solomon Gonzalez, and Andrik Puentes we implemented a perception-control pipeline, including April tags-based perception and kinematics-based motion planner for a 7-DoF robotic manipulator, and grasping execution.
+                  The evaluation included stacing a series of static and dynamics blocks into a stable tower within a time limit.
+                </p>
+              </td>
+            </tr>
+
+            <tr bgcolor="#f0f0f0">
+              <td style="padding:16px;width:22.5%;vertical-align:middle">
+                <video width="180" autoplay loop muted playsinline style="display:block;">
+                  <source src='images/psp.mp4' type='video/mp4'>
+                </video>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle"> NASA Student Launch Competition</span>
+                <br>
+                <em>Purdue Space Program &mdash; NASA SL</em>
+                <br>
+                <a href="https://purdueseds.space/student-launch/">Project Website</a>
+                <p></p>
+                <span style="display:block;margin-bottom:8px;"></span>
+                <p style="text-align: justify;">
+                  Led a 60-member interdisciplinary team as Project Manager and Lead Structures Engineer for NASA Student Launch, overseeing the full design-to-launch cycle of a high-powered competition rocket. Coordinated deliverables and communications directly with NASA and NAR, managed budget and timeline, and led structural design including FEA, CFD, and component manufacturing.
+                </p>
+              </td>
+            </tr>
+
+            
+
+
+            
 
             <tr bgcolor="#f0f0f0">
               <td style="padding:16px;width:22.5%;vertical-align:middle">
@@ -275,15 +324,33 @@
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Implementation of Neural Radiance Field</span>
                 <br>
-                <em>ESE 6500 Learning in Robotics &mdash; Class Assignment</em>
-                <br>
-                <span style="display:block;margin-bottom:16px;"></span>
+                <em>ESE 6500 - Learning in Robotics</em>
+                <span style="display:block;margin-bottom:8px;"></span>
                 <p></p>
                 <p style="text-align: justify;">
-                  Implemented Neural Radiance Fields (NeRF), training a volumetric scene representation from a set of posed images and rendering novel views via differentiable ray marching.
+                  Implemented Neural Radiance Fields (NeRF) from scratch in PyTorch following the original formulation, including positional encoding, an MLP-based radiance field, and volumetric rendering via differentiable ray marching. Explored the effect of network capacity and sampling strategies on rendering quality across multiple views.
                 </p>
               </td>
             </tr>
+
+            <tr bgcolor="#f0f0f0">
+              <td style="padding:16px;width:22.5%;vertical-align:middle">
+                <img src='images/tiny_gpt.png' width="180">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Building GPT from Scratch: Transformer-Based Character-Level Language Modeling</span>
+                <br>
+                <em>ENM 5310 Data-driven Modeling and Probabilistic Scientific Computing &mdash; Final Project</em>
+                <br>
+                <a href="https://github.com/mateusz-jaszczuk/ENM5310-Final-Project---Mateusz-Jaszczuk/tree/main">Code</a>
+                <p></p>
+                <p style="text-align: justify;">
+                  Implemented a GPT-inspired transformer from scratch in PyTorch following Andrej Karpathy's approach, including multi-head self-attention, positional encoding, and MLP blocks for character-level language generation on different datasets. Conducted ablation studies on regularization techniques including dropout, residual connections and layer normalization.
+                </p>
+              </td>
+            </tr>
+
+            
 
           </tbody></table>
 
