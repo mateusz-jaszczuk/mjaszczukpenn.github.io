@@ -255,6 +255,26 @@
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr bgcolor="#f0f0f0">
               <td style="padding:16px;width:22.5%;vertical-align:middle">
+                <video width="180" autoplay loop muted playsinline style="display:block;">
+                  <source src='images/diffusion.mov' type='video/mp4'>
+                </video>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Conditional Diffusion Model for Collision-Free Trajectory Planning</span>
+                <br>
+                <a href="#">Code</a>
+                <br>
+                <span style="display:block;margin-bottom:4px;"></span>
+                <p></p>
+                <p style="text-align: justify;">
+                  I implemented a conditional diffusion model for 2D point-mass navigation following the planning-as-denoising approach (Janner et al., ICML 2022). A U-Net learns to recover clean trajectories from Gaussian noise conditioned on start and goal positions, trained on D4RL Point Maze demonstrations, producing diverse collision-free paths at inference time.
+                </p>
+              </td>
+            </tr>
+            
+            
+            <tr bgcolor="#f0f0f0">
+              <td style="padding:16px;width:22.5%;vertical-align:middle">
                 <img src='images/lcbf.png' width="180">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
